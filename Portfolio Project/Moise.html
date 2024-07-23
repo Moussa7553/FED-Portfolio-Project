@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aliceblue;
+        }
+        header {
+            background-color: #333333;
+            color: #fff;
+            text-align: center;
+            padding: 0px;
+            position: relative;
+        }
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+        .profile-picture {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        nav {
+            background-color: blue;
+            color: #fff;
+            text-align: center;
+            padding: 0%;
+            margin: 0px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 15px;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .social-media-button {
+            background-color: blue;
+            font-size: 1.5rem;
+            color: #fff;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333333;
+            color: #fff;
+        }
+        ul {
+            list-style-type: lower-roman;
+            padding-left: 20px;    
+        }
+        .top-button {
+            position: fixed;
+            bottom: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            display: none;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .top-button:hover {
+            background-color: aqua;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        .toggle-button {
+            background-color: cadetblue;
+            color: green;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .toggle-button:hover {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Moussa.jpg" alt="My profile picture" class="profile-picture">
+            <h1>MOUSSA</h1>
+            <p>Hello I'm MOUSSA Dembele a Web developer.</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="About">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Welcome to my web developer portfolio! I'm Moussa Dembele, a dedicated and imaginative web developer with a flair for 
+                crafting visually appealing and intuitive user experiences. My journey in design has led me to work on diverse projects,
+                 from sleek mobile apps to engaging website interfaces.</p>
+        </div>
+    </section>
+    <section id="Education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Sree Rama Memorial University Andhra Pradesh - CSE</p>
+            <table border="1">
+                <tr>
+                    <th>Degree</th>
+                    <th>College</th>
+                    <th>Department</th>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td>LPK</td>
+                    <td>NA</td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>LMBS</td>
+                    <td>Physics</td>
+                </tr>
+                <tr>
+                    <td>BTech-CSE</td>
+                    <td>SRM University AP</td>
+                    <td>CSE</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="Skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript, React.js</li>
+            </ul>
+        </div>
+    </section>
+    <section id="Project">
+        <div class="section-content">
+            <h2>Project CS</h2>
+            <a href="C:\Users\Moussa Dembele\Desktop\MOUSSA.PPT.pptx">Project Presentation</a>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="section-content">
+            <img src="Moussa.jpg" alt="Here is my picture" style="float: right; margin-left: 20px; width: 150px; height: auto;">
+            <h4>Contact Me Here:</h4>
+            <ul>
+                <li>First Name: MOUSSA</li>
+                <li>Last Name: Dembele</li>
+                <li>Number: 919030788428</li>
+                <li>Email: moussa_dembele@srmap.edu.in</li>
+            </ul> 
+        </div>
+    </section>
+    <section id="SocialMedia">
+        <div class="section-content">
+            <h5>Social Media Profile</h5>
+            <p>Here is my LinkedIn profile where you can see all my accomplishments</p>
+            <a href="https://www.linkedin.com/in/moussa-dembele-a52aba258?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bt%2F5pYEgnRN6bpDd1Y03y7Q%3D%3D" class="social-media-button">LinkedIn Profile</a>
+        </div>
+    </section>
+    <footer>@2024 MOUSSA N</footer>
+    <button class="top-button" id="top-button">Top</button>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+
+        const topButton = document.getElementById('top-button');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                topButton.style.display = 'block';
+            } else {
+                topButton.style.display = 'none';
+            }
+        });
+
+        topButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
